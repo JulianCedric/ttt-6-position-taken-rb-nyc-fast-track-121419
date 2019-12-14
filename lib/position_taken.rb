@@ -27,5 +27,11 @@ index = input_to_index(user_input)
 
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil 
+else 
+  puts "That position is already taken. Please choose another spot on the baord."
   end 
 end 
+
+position_taken?(board, index)
+
+
