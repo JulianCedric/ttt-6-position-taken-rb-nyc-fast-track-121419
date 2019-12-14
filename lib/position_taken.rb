@@ -22,8 +22,9 @@ end
 
 index = input_to_index(user_input)
 
-index 
+# The return Booleean value of the position_taken? method should be false. 
+# So, it should equal one of the following three: " ", "", or nil. 
 
-
-# def position_taken(board, index)
-#   taken? 
+def position_taken?(board, index)
+  if board[index] == " " || board[index] == "" || board[index] == nil 
+end 
