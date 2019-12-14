@@ -27,4 +27,5 @@ index = input_to_index(user_input)
 
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil 
+  end 
 end 
