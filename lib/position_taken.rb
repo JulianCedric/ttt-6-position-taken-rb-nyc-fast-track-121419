@@ -12,6 +12,14 @@ end
 
 display_board(board)  
 
+user_input = gets.strip
+
+def input_to_index(user_input)
+  user_input.to_i - 1 
+end 
+
+input_to_index(user_input)
+
 # index = input_to_index(user_input)
 
 # def position_taken(board, index)
